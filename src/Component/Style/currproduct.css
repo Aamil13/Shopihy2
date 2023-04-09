@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* *{
+    overflow-x: hidden;
+} */
+.currproduct{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    font-family:'Poppins';
+    
+    
+}
+@media (max-width:650px) {
+    .currproduct{
+        display: flex;
+        flex-direction: column;
+    }
+    .price{
+        width: 200px;
+    }
+    .fdev{
+        gap: 2px !important;
+    }
+    .footerp{
+        font-size: 10px;
+        width: 200px;
+    }
+}
+
+@media (max-width:400px){
+    .footerparent{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .icons{
+        margin-top: 0 !important;
+        overflow-y: hidden;
+    }
+    .fdev{
+        margin-top: 35px !important;
+    }
+    .imgname{
+        font-size: 2px !important;
+    }
+}
+.currpimg{
+    width: 300px;
+}
+
+.firstp{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.firstd{
+    
+    font-size: 15px;
+    max-width: 70%;
+}
+

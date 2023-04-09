@@ -1,0 +1,66 @@
+.contain{
+    justify-content: space-evenly;
+    border-bottom:1px solid grey ;
+    gap: 2rem;
+}
+.div1{
+    position: relative;
+    width: 200px;
+}
+.deleteicon{
+    cursor: pointer;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+}
+.pt{
+    text-align: start !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .contain{
+        justify-content: space-between;
+        margin: 0 !important;
+        gap: 20px;
+    }
+    .pt{
+        width: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    .curtmdiv{
+        padding: 4rem !important;
+    }
+    .prodtotal{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 415px){
+    .contain{
+        flex-direction: column;
+    }
+    .pt{
+        
+        width: 70%;
+    }
+    .img{
+        width: 40px !important;
+    }
+    .deleteicon{
+        left: 30px;
+        top: 0px;
+    }
+    .incdec{
+        position: absolute;
+        left: 150px;
+    }
+    .prodtotal{
+        display: none;
+    }
+}
+
+.img{
+    width: 60%;
+}

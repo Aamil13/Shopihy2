@@ -1,0 +1,14 @@
+@media screen and (max-width:715px){
+    .mediaAbout{
+        width: 300px !important;
+    }
+}
+@media screen and (max-width:400px) {
+    .singleprodmaindiv{
+        flex-direction: column;
+    }
+    .imagesingleprod{
+        width: 100% !important;
+    }
+   
+}

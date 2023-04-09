@@ -1,0 +1,34 @@
+.sd{
+    display: none;
+}
+.mobimage1{
+    position: relative;
+}
+.mobip1{
+    position: absolute;
+}
+.mobip2{
+    position: absolute;
+    /* left: 200px; */
+}
+
+@media screen and (max-width:390px) {
+    .filterrs{
+        position: absolute;
+        width: 100%;
+        transition: all 0.5s ease;
+      
+    }
+    
+    .sd{
+       display: block;
+        position: absolute;
+        z-index: 9;
+    }
+    /* .mobimage{
+        margin-left: 2rem;
+    }
+    .mobip1{
+        margin-left: 2.5rem;
+    } */
+}
